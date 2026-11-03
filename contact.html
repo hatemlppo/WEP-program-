@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>BEXO AUTO | الطلب والتواصل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h1 style="color:white;">BEXO AUTO</h1>
+    <p style="color:white;">متجر قطع غيار السيارات ومستلزماتها</p>
+</div>
+<div class="nav">
+    <p>
+        <a href="index.html">الرئيسية</a> |
+        <a href="products.html">المنتجات</a> |
+        <a href="about.html">من نحن</a> |
+        <a href="contact.html">اتصل بنا / الطلب</a>
+    </p>
+</div>
+
+<h2 class="form-title">نموذج الطلب والتواصل</h2>
+<p align="center">املأ المعلومات التالية لإظهار نموذج طلب شراء.</p>
+
+<form action="#" method="post">
+    <table border="1" width="80%" align="center" cellpadding="8">
+        <tr>
+            <td>الاسم الكامل:</td>
+            <td><input type="text" name="customer_name" size="35"></td>
+        </tr>
+        <tr>
+            <td>رقم الهاتف:</td>
+            <td><input type="tel" name="phone" size="35"></td>
+        </tr>
+        <tr>
+            <td>البريد الإلكتروني:</td>
+            <td><input type="email" name="email" size="35"></td>
+        </tr>
+        <tr>
+            <td>المنتج المطلوب:</td>
+            <td>
+                <select name="product">
+                    <option>فلتر زيت</option>
+                    <option>فلتر هواء</option>
+                    <option>فحمات فرامل</option>
+                    <option>شمعة إشعال</option>
+                    <option>إكسسوارات السيارة</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>الكمية:</td>
+            <td><input type="number" name="quantity" value="1"></td>
+        </tr>
+        <tr>
+            <td>طريقة التواصل:</td>
+            <td>
+                <input type="radio" name="contact_method" value="phone"> الهاتف
+                <input type="radio" name="contact_method" value="email"> البريد الإلكتروني
+            </td>
+        </tr>
+        <tr>
+            <td>ملاحظات إضافية:</td>
+            <td><textarea name="notes" rows="5" cols="35"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="إرسال الطلب">
+                <input type="reset" value="مسح البيانات">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<p class="note">ملاحظة: النموذج للعرض التعليمي فقط؛ إرسال الطلب يحتاج إلى برمجة من جهة الخادم، ولم نستخدم JavaScript حسب تعليمات المشروع.</p>
+
+<h2 class="section-title">بيانات التواصل</h2>
+<p align="center">الهاتف: 0770 000 0000</p>
+<p align="center">البريد الإلكتروني: bexo@example.com</p>
+<hr>
+<div class="footer">
+    <p style="color:white;">BEXO AUTO - متجر قطع غيار السيارات</p>
+    <p style="color:white;">مشروع جامعي باستخدام HTML و CSS فقط</p>
+</div>
+
+</body>
+</html>

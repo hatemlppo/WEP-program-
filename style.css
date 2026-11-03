@@ -1,0 +1,77 @@
+/* BEXO Auto Parts
+   CSS محدود بخصائص الألوان والخلفية ومحاذاة النص وزخرفة النص
+   حسب أول صفحات CSS التي تمت دراستها في الملزمة.
+*/
+body {
+    color: #222222;
+    background-color: #f3f3f3;
+    text-align: right;
+}
+
+h1, h2, h3 {
+    color: #b5121b;
+    text-align: center;
+}
+
+p {
+    color: #333333;
+}
+
+a {
+    color: #b5121b;
+    text-decoration: none;
+}
+
+.header {
+    color: white;
+    background-color: #222222;
+    text-align: center;
+}
+
+.nav {
+    color: white;
+    background-color: #b5121b;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    color: white;
+    background-color: #222222;
+    text-align: center;
+}
+
+.section-title {
+    color: #b5121b;
+    text-align: center;
+}
+
+.product-name {
+    color: #b5121b;
+    text-align: center;
+}
+
+.price {
+    color: #b5121b;
+    text-align: center;
+}
+
+.note {
+    color: #555555;
+    text-align: center;
+}
+
+.highlight {
+    color: white;
+    background-color: #b5121b;
+    text-align: center;
+}
+
+.form-title {
+    color: #b5121b;
+    text-align: center;
+}
